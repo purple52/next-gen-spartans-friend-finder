@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name         Spartan Dads Xbox Live Friend Manager
-// @namespace    https://github.com/purple52/spartan-dads-friend-finder
-// @version      0.15.2017-09-23
-// @updateURL    https://github.com/purple52/spartan-dads-friend-finder/raw/master/Spartan%20Dads%20Xbox%20Live%20Friend%20Manager.user.js
-// @downloadURL  https://github.com/purple52/spartan-dads-friend-finder/raw/master/Spartan%20Dads%20Xbox%20Live%20Friend%20Manager.user.js
-// @description  Script to fetch all existing friends, and compare that list to the list of all Spartan Dads, and add the members not listed in your friends list.
+// @name         Next Gen Spartans Xbox Live Friend Manager
+// @namespace    https://github.com/purple52/next-gen-spartans-friend-finder
+// @version      1.0.0
+// @updateURL    https://github.com/purple52/next-gen-spartans-friend-finder/raw/master/Next%20Gen%20Spartans%20Xbox%20Live%20Friend%20Manager.user.js
+// @downloadURL  https://github.com/purple52/next-gen-spartans-friend-finder/raw/master/Next%20Gen%20Spartans%20Xbox%20Live%20Friend%20Manager.user.js
+// @description  Script to fetch all existing friends, and compare that list to the list of all Next Gen Spartans, and add the members not listed in your friends list.
 // @author       Vuris, WinkSomeIDunno and PurpleFiftyTwo
 // @match        https://account.xbox.com/*
 // @match        https://www.halowaypoint.com/en-us/spartan-companies/*
@@ -91,10 +91,7 @@
  */
 
 var targetCompanies = [];
-targetCompanies.push("spartan%20dads");
-targetCompanies.push("spartan%20dads%20osiris");
-targetCompanies.push("spartan%20dads%204");
-targetCompanies.push("undivided%20sd");
+targetCompanies.push("next%20gen%20spartans");
 
 
 var skipGamerTags = [];
